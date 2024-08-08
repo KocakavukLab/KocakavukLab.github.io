@@ -1,0 +1,56 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+/* Body Styling */
+body {
+  box-sizing: border-box;
+}
+#bg-aboutcover {
+  transition: height 0.3s;
+  background-image: url("./assets/HomePage_Covers/dna2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 10;
+}
+/* Font styling */
+.monst-font {
+  font-family: "Montserrat", sans-serif;
+}
+.members-subhead {
+  font-family: "Merriweather", serif;
+}
+.credits-font {
+  font-family: "PT Serif", serif;
+}
+/* Footer image */
+.footer-bg-img {
+  background-image: url("./assets/HomePage_Covers/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: relative;
+}
+/* icons styling in members*/
+.icon-class {
+  font-size: 1.5em;
+  color: gray;
+}
+
+/* Ensuring the background image fits within the viewport */
+header.h-screen {
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Taking the full viewport height */
+  overflow: hidden; /* Preventing overflow */
+}
+
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  font-size: 24px;
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+
